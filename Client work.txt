@@ -1,0 +1,6 @@
+#Stored Work
+#Wed Dec 30 23:00:40 IST 2020
+address=kanpur
+telephone=0000000000
+email=xyz@gmail.com
+name=kashif
