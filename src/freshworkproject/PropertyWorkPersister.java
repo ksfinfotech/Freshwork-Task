@@ -21,9 +21,9 @@ public class PropertyWorkPersister{
         properties.setProperty("address",work.address);
         properties.setProperty("telephone",work.telephone);
         properties.setProperty("email",work.email);
-        File file=new File("Client work.txt");
-        FileWriter fw =new FileWriter("Client work.txt");
-        properties.store(fw, "Stored Work");
+        File file=new File("Client work.json");
+        FileWriter fw =new FileWriter("Client work.json");
+        properties.store(fw, "Client Details");
         fw.close();
          System.out.println("If you want to delete client file?");
         System.out.println("enter Yes/No");
