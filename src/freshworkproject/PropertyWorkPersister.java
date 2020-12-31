@@ -37,6 +37,10 @@ public class PropertyWorkPersister{
         {
           System.out.println(file.getName()+" file is successfully saved");   
         }
+         Scanner scan=new Scanner(file);
+         while(scan.hasNextLine()){
+        System.out.println(scan.nextLine());
+         }
     
     }   
     }
