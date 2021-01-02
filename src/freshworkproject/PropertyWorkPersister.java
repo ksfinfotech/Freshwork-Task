@@ -25,6 +25,10 @@ public class PropertyWorkPersister{
         FileWriter fw =new FileWriter("Client work.json");
         properties.store(fw, "Client Details");
         fw.close();
+         Scanner scan=new Scanner(file);
+         while(scan.hasNextLine()){
+        System.out.println(scan.nextLine());
+         }
          System.out.println("If you want to delete client file?");
         System.out.println("enter Yes/No");
         String input=sc.nextLine();
@@ -37,10 +41,7 @@ public class PropertyWorkPersister{
         {
           System.out.println(file.getName()+" file is successfully saved");   
         }
-         Scanner scan=new Scanner(file);
-         while(scan.hasNextLine()){
-        System.out.println(scan.nextLine());
-         }
+         
     
     }   
     }
